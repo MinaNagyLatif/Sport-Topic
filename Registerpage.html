@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>register</title> 
+    <link rel="stylesheet" type="text/css" href="regist.css">
+    <script src="regist.js"></script>
+</head> 
+<body>
+<h3 align="right">to return to the home page <a href="home.html">click here</a> </h3>
+<h1> to be one of our fans please complete this form</h1> 
+<form onsubmit="hello()"> 
+ 
+	<div>
+        <label for="fname">First Name</label> 
+	    <input id="fname" type="text" name="fname" placeholder="John" required> 
+        <label for="lname">Last Name</label> 
+        <input id="lname" type="text" name="lname"placeholder="Smith" required> 
+    </div>
+    <div>
+        <label for="Male">Male</label> 
+        <input id="Male" type="radio" name="gender" value="Male">
+        <label for="Female">Female</label>
+        <input id="Female" type="radio" name="gender" value="Female">
+    </div>
+    <div >
+        <label for="Adress">Adress</label>
+        <input type="text" name="address" placeholder="address" id="Adress" required> 
+    </div>
+    <div>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required="enter your phone">
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input id="Email" type="Email" name="Email" placeholder="email" required>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}" required title="Must contain at least one number and one uppercase and lowercase letter,and a special character, and all is 8 character">
+    </div>
+    <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required>
+    </div>
+    <label for="terms">I agree to the terms and conditions</label>
+    <input id="terms" type="checkbox" name="terms" required>
+
+    <button>submit</button>
+    <input type="reset">
+</form>
+
+</body>
+</html>

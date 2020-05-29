@@ -1,0 +1,41 @@
+.big {
+	width: 19%;	
+	float: left;
+	margin: 2.5%;
+	box-shadow: 0 0 20px 2px red;
+}
+.small {
+	width: 20%;
+	float: left;
+	margin: 2.5%;	
+	box-shadow: 0 0 20px 2px red;
+}
+.first{
+    width: 20%;
+	margin: 2.5%;
+
+}
+.first {
+	float: left;
+}
+body{
+	background-image: url(guille-pozzi-sbcIAn4Mn14-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+
+
+}
+p , ol{
+	color: white;
+}
+h1{
+	color: rgb(150,10,250);
+}
+h3 , h2 {
+	color: #DBFC5E;
+}
+ a{
+ 	color: yellow;
+ }
+

@@ -1,0 +1,57 @@
+body{
+	background-image: url(wp1830650-premier-league-wallpapers.jpg);
+	height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+table{
+	margin:12% auto;
+    padding: 50px 0;
+}
+
+th{
+	background-color: rgb(10,80,50);
+	color: white;
+}
+#league td, #league th {
+  border: 1px solid #F1EB7A;
+  padding: 8px;
+}
+
+#league tr:nth-child(even){background-color: #ABE3FF;}
+#league tr:nth-child(odd){background-color: #929292;}
+
+#league tr:hover {background-color: #E00C36;}
+p{
+	color: white;
+}
+
+#league th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+h1{
+	color: white;
+	align-content: center;
+}
+h2{
+	color: yellow;
+}
+h3{
+	color: #D9F963;
+}	
+a{
+	color: yellow;
+}
+
+
+
+
+
+
+

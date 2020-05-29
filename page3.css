@@ -1,0 +1,26 @@
+body{
+background-image: url(championsleague.jpg);
+
+}
+p{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+img{
+	box-shadow: 0 0 20px 20px red;
+}
+div {
+	color: rgb(250,250,250);
+
+}
+h3{
+	color: #D7D700;
+}
+.yellow {
+	color: yellow;
+}
+a{
+	color: red;
+}
